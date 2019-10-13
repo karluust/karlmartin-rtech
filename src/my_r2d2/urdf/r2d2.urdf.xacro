@@ -267,4 +267,13 @@
     <origin xyz="0 0 ${baselen+wheeldiam}"/>
   </joint>
 
+  <link name="eye">
+  </link>
+
+  <joint name="toeye" type="fixed">
+    <parent link="lens"/>
+    <child link="eye"/>
+    <origin xyz="0.02 0 0"/>
+  </joint>
+
 </robot>
