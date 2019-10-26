@@ -273,7 +273,7 @@
   <joint name="toeye" type="fixed">
     <parent link="lens"/>
     <child link="eye"/>
-    <origin xyz="0.02 0 0"/>
+    <origin rpy="0 0 -${pi/2}" xyz="0 ${pi/2} 0"/>
   </joint>
 
 </robot>
